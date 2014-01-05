@@ -1,4 +1,4 @@
-protractor-mocha-exmple
+protractor-astrolabe-mocha-example
 =======================
 
 Basic example of protractor, astrolabe, chaijs &amp; mocha working together.

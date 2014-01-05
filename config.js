@@ -10,7 +10,7 @@ exports.config = {
 
   // Spec patterns are relative to the current working directly when
   // protractor is called.
-  specs: ['test.js'],
+  specs: ['specs/**/*.js'],
 
   framework: "mocha",
 

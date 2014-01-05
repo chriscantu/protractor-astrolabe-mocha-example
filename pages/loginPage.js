@@ -1,7 +1,7 @@
 var Page = require('astrolabe').Page;
 
 module.exports = Page.create({
-	url: { value: 'http://beta.epikvote.com/login' },
+	url: { value: 'http://localhost:9000/login' },
 	title : { value: 'Login' },
 	username: {
 		get: function() { return this.findElement(this.by.css('input#email')) }

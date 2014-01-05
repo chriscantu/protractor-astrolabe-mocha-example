@@ -16,5 +16,9 @@ describe('Home Page', function () {
 	it('Display home page', function () {
 		homePage.go();
 		expect(browser.getTitle()).to.eventually.equal(homePage.title);
+
+		homePage.headingTitle.then( function (title) {
+			expect(title.getText()).to.eventually.equal('Determine the Epik President');
+		});
 	});
 });

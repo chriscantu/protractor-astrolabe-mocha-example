@@ -12,11 +12,5 @@ exports.config = {
   // protractor is called.
   specs: ['specs/**/*.js'],
 
-  framework: "mocha",
-
-  // Options to be passed to Jasmine-node.
-  jasmineNodeOpts: {
-    showColors: true,
-    defaultTimeoutInterval: 30000
-  }
+  framework: 'mocha'
 };
